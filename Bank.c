@@ -226,8 +226,9 @@ int main() {
     int choice;
     load_accounts();
 
+//Condition always true
     while (1) {
-        printf("\n=== Bank Management System ===\n");
+        printf("\n=== Bank Management System ===\n"); 
         printf("1. Create Account\n");
         printf("2. View Account\n");
         printf("3. Deposit\n");
